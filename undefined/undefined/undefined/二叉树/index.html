@@ -27,7 +27,7 @@
 <meta property="og:description" content="基本概念  二叉树: 每个节点至多拥有两颗子树, 子树互不相交, 且子树有左右顺序之分 二叉树的五种基本形态: 空树, 根, 根 + 左子树, 根 + 右子树, 根 + 左子树 + 右子树 树的元素:  叶节点: 度为 \(0\) 的节点, 用 \(n_{0}\) 表示 度为 \(1\) 的节点, 用 \(n_{1}\) 表示, 度为 \(2\) 的节点, 用 \(n_{2}\)">
 <meta property="og:locale" content="en_US">
 <meta property="article:published_time" content="2024-03-25T11:08:41.000Z">
-<meta property="article:modified_time" content="2024-03-25T13:54:19.762Z">
+<meta property="article:modified_time" content="2024-03-25T15:14:44.417Z">
 <meta property="article:author" content="Qiyue Z">
 <meta property="article:tag" content="二叉树">
 <meta name="twitter:card" content="summary">
@@ -52,7 +52,7 @@
 <div class="l_body s:aa content tech" id="start" layout="post" ><aside class="l_left"><div class="leftbar-container">
 
 
-<header class="header"><div class="logo-wrap"><a class="avatar" href="/"><div class="bg" style="opacity:0;background-image:url(https://gcore.jsdelivr.net/gh/cdn-x/placeholder@1.0.12/avatar/round/rainbow64@3x.webp);"></div><img no-lazy class="avatar" src="D:\Hexo\node_modules\hexo-theme-stellar\source" onerror="javascript:this.classList.add('error');this.src='https://gcore.jsdelivr.net/gh/cdn-x/placeholder@1.0.12/image/2659360.svg';"></a><a class="title" href="/"><div class="main" ff="title">Y's blog</div><div class="sub normal cap">欢迎来到我的私人博客!</div><div class="sub hover cap" style="opacity:0"> Welcome to my private blog!</div></a></div></header>
+<header class="header"><div class="logo-wrap"><a class="avatar" href="/about/"><div class="bg" style="opacity:0;background-image:url(https://gcore.jsdelivr.net/gh/cdn-x/placeholder@1.0.12/avatar/round/rainbow64@3x.webp);"></div><img no-lazy class="avatar" src="undefined" onerror="javascript:this.classList.add('error');this.src='https://gcore.jsdelivr.net/gh/cdn-x/placeholder@1.0.12/image/2659360.svg';"></a><a class="title" href="/"><div class="main" ff="title">[</div></a></div></header>
 
 <div class="nav-area">
 <div class="search-wrapper" id="search-wrapper"><form class="search-form"><a class="search-button" onclick="document.getElementById(&quot;search-input&quot;).focus();"><svg t="1705074644177" viewBox="0 0 1025 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="1560" width="200" height="200"><path d="M1008.839137 935.96571L792.364903 719.491476a56.783488 56.783488 0 0 0-80.152866 0 358.53545 358.53545 0 1 1 100.857314-335.166073 362.840335 362.840335 0 0 1-3.689902 170.145468 51.248635 51.248635 0 1 0 99.217358 26.444296 462.057693 462.057693 0 1 0-158.255785 242.303546l185.930047 185.725053a51.248635 51.248635 0 0 0 72.568068 0 51.248635 51.248635 0 0 0 0-72.978056z" p-id="1561"></path><path d="M616.479587 615.969233a50.428657 50.428657 0 0 0-61.498362-5.534852 174.655348 174.655348 0 0 1-177.525271 3.484907 49.403684 49.403684 0 0 0-58.833433 6.76482l-3.074918 2.869923a49.403684 49.403684 0 0 0 8.609771 78.10292 277.767601 277.767601 0 0 0 286.992355-5.739847 49.403684 49.403684 0 0 0 8.404776-76.667958z" p-id="1562"></path></svg></a><input type="text" class="search-input" id="search-input" placeholder="Search"></form><div id="search-result"></div><div class="search-no-result">No Results!</div></div>
@@ -76,7 +76,7 @@
   <div class="content">
     <div class="top bread-nav footnote"><div class="left"><div class="flex-row" id="breadcrumb"><a class="cap breadcrumb" href="/">Home</a>
 <span class="sep"></span><a class="cap breadcrumb" href="/">Blog</a></div>
-<div class="flex-row" id="post-meta"><span class="text created">Posted on: <time datetime="2024-03-25T11:08:41.000Z">2024-03-25</time></span><span class="sep updated"></span><span class="text updated">Updated on: <time datetime="2024-03-25T13:54:19.762Z">2024-03-25</time></span></div></div></div>
+<div class="flex-row" id="post-meta"><span class="text created">Posted on: <time datetime="2024-03-25T11:08:41.000Z">2024-03-25</time></span><span class="sep updated"></span><span class="text updated">Updated on: <time datetime="2024-03-25T15:14:44.417Z">2024-03-25</time></span></div></div></div>
     
     <div class="bottom only-title">
       
@@ -87,7 +87,7 @@
     </div>
     
   </div>
-  </div><article class="md-text content"><h2 id="基本概念">基本概念</h2>
+  </div><article class="md-text content"><h2 id="基本概念"><a href="#BasicConcept">基本概念</a></h2>
 <ol type="1">
 <li>二叉树: 每个节点至多拥有两颗子树, 子树互不相交,
 且子树有<strong>左右顺序</strong>之分</li>
@@ -121,7 +121,7 @@ class="math inline">\(or\)</span> <span
 class="math inline">\(0\)</span>)</li>
 </ol></li>
 </ol>
-<h2 id="二叉树的性质">二叉树的性质</h2>
+<h2 id="二叉树的性质"><a href="#Properties">二叉树的性质</a></h2>
 <ol type="1">
 <li><p>第 <span class="math inline">\(i\)</span> 层的最大节点数: <span
 class="math inline">\(2^{i-1}\)</span></p></li>
@@ -134,7 +134,7 @@ n_{2}\)</span>, 总边数 <span class="math inline">\(n_{0} + n_{1} + n_{2}
 - 1\)</span>(根节点无向上的边) <span class="math inline">\(=0*n_{0} +
 1*n_{1} + 2*n_{2}\)</span>, 移项即得</p></li>
 </ol>
-<h2 id="二叉树的存储结构">二叉树的存储结构</h2>
+<h2 id="二叉树的存储结构"><a href="#Structure">二叉树的存储结构</a></h2>
 <ol type="1">
 <li><p>顺序存储</p>
 <p>主要用于完全二叉树</p>
@@ -150,7 +150,7 @@ class="math inline">\(2i+1\)</span> (若 <span class="math inline">\(2i+1
 </ul></li>
 <li><p>链表存储</p></li>
 </ol>
-<h2 id="二叉树的遍历">二叉树的遍历</h2>
+<h2 id="二叉树的遍历"><a href="#Traversal">二叉树的遍历</a></h2>
 <ul>
 <li><p>前序, 中序, 后序中的<strong>前</strong>, <strong>中</strong>,
 <strong>后</strong>指的是<strong>根</strong>节点在<strong>前</strong>,
@@ -553,27 +553,7 @@ target="_blank" rel="noopener" href="https://creativecommons.org/licenses/by-nc-
       })
     }
   });
-</script><script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.6/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
-<script type="text/x-mathjax-config">
-MathJax.Hub.Config({
-  tex2jax: {
-    inlineMath: [ ['$','$'], ["\\(","\\)"] ],
-    processEscapes: true
-  }
-});
-MathJax.Hub.Config({
-  tex2jax: {
-    skipTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code']
-  }
-});
-MathJax.Hub.Queue(function() {
-  var all = MathJax.Hub.getAllJax(), i;
-  for(i=0; i < all.length; i += 1) {
-    all[i].SourceElement().parentNode.className += ' has-jax';
-  }
-});
-</script>
-<script>
+</script><script>
   document.addEventListener('DOMContentLoaded', function () {
     window.codeElements = document.querySelectorAll('.code');
     if (window.codeElements.length > 0) {
